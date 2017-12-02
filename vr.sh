@@ -1,4 +1,6 @@
 #!/bin/sh
+# vrsh: virtual reality shell
+# licensed public domain / cc0
 
 clear
 while read cmd; do
