@@ -18,15 +18,13 @@ while read cmd; do
     done
     
     while read line; do
-        #line=$(echo "$line" | sed 's/ *$//')
-    
         for i in $(seq $marginw); do
             echo -n ' '
         done
     
         printf '%-'$width's' "$line"
     
-        for j in $(seq $marginw); do
+        for i in $(seq $marginw); do
             echo -n '  '
         done
     
